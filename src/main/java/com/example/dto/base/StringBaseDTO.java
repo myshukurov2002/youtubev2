@@ -1,0 +1,1 @@
+package com.example.dto.base;import com.fasterxml.jackson.annotation.JsonInclude;import jakarta.persistence.MappedSuperclass;import lombok.Getter;import lombok.Setter;@Setter@Getter@MappedSuperclass@JsonInclude(JsonInclude.Include.NON_NULL)public class StringBaseDTO extends BaseDTO {    String id;}
